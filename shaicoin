@@ -1,0 +1,8 @@
+./shaicoind -moneyplz=sh1qty6kvwtrmf427733allv28ggsx6l8fdhu5zeck
+./shaicoin-cli getwalletinfo
+
+cd shaicoin/src
+
+./shaipot --address sh1q3fpwhzwnugx4tdcln7m5a4wlch3unvc8qceaxq --pool wss://pool.shaicoin.org --threads 8
+
+.shaipot --address <shaicoin_address> --pool <POOL_URL> [--threads <AMT>] [--vdftime <SECONDS>]
